@@ -1,0 +1,22 @@
+From 0937f821bdf6ca78dc234c52ec7c551929ebd2c9 Mon Sep 17 00:00:00 2001
+From: Alexander Kostarev <akostarev@diasoft.ru>
+Date: Wed, 11 Oct 2023 12:11:47 +0300
+Subject: [PATCH] Revert "commit"
+
+This reverts commit 61e2b395406f67bbeb7283b7c8155fd71c922fcb.
+---
+ file.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/file.txt b/file.txt
+index 9b9fe47..6d8b327 100644
+--- a/file.txt
++++ b/file.txt
+@@ -8,4 +8,3 @@ changes in master branch
+ changes in master branch
+ changes in master branch
+ changes in master branch
+-changes 11.10
+-- 
+2.37.3
+
